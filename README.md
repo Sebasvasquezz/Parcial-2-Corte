@@ -9,15 +9,15 @@ Adicionalmente, se implementa un servicio de proxy que recibe las peticiones y l
 
 En su computadora descargue o clone los siguientes repositorios.
 
-[Repository Math Service](https://github.com/Richi025/examen.git) 
+[Repository Math Service](https://github.com/Sebasvasquezz/Parcial-2-Corte) 
 
-[Repository Proxy Server](https://github.com/Richi025/examenproxy.git) 
+[Repository Proxy Server](https://github.com/Sebasvasquezz/Proxi-parcial-C2) 
 
 
 ```
-https://github.com/Richi025/examen.git 
+git clone https://github.com/Sebasvasquezz/Parcial-2-Corte
 
-https://github.com/Richi025/examenproxy.git 
+git clone https://github.com/Sebasvasquezz/Proxi-parcial-C2 
 ```
 
 #### Correr el servidor de proxy 
@@ -32,7 +32,7 @@ https://github.com/Richi025/examenproxy.git
 3. Corra la aplicación.
 
     ```
-    mvn spring-boot:run
+    java -jar /proxi-0.0.1-SNAPSHOT.jar
 
     ```
     Ahora el servidor proxy esta corriendo en el puerto 8081 
@@ -45,7 +45,7 @@ https://github.com/Richi025/examenproxy.git
 
         mvn clean package
 
-        java -jar target/examen-0.0.1-SNAPSHOT.jar --server.port=8080
+        java -jar practica-0.0.1-SNAPSHOT.jar 
     ```
 
 ### Ejecucion en AWS
